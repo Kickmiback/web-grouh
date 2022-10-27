@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты - Сайт группы</title> 
+        <link rel="stylesheet" href="../css/style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script async src="../js/login-popup.js"></script>  
+    </head>
+    <body class="page">
+        <header class="header">
+            <a href="../index.html"><img class="site-logo" src="../img/logo.svg" alt="Логотип"></a>  
+            <ul class="site-menu">
+                <li><a class="menu-link"  href="../index.html">Главная</a></li>
+                <li><a class="menu-link" href="../pages/students.html">Студенты</a></li>
+                <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+                <li><a class="menu-link active-link" href="#">Контакты</a></li>
+                <li><a class="menu-link" href="aboutmyself.html">О себе</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form" action="#" method="GET">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+        </header>
+        <main class="main contacts-about">
+            <h1 class="main-heading contacts-heading">Как нас найти</h1>
+            <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35925.167120400845!2d48.740707!3d55.752892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415bfe6819651bdb%3A0x682fd54dd3f63773!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgtGB0LrQsNGPINGD0LsuLCAxLCDQmNC90L3QvtC_0L7Qu9C40YEsINCg0LXRgdC_LiDQotCw0YLQsNGA0YHRgtCw0L0sINCg0L7RgdGB0LjRjywgNDIyNTk0!5e0!3m2!1sru!2sus!4v1665907616960!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2 class="contacts-text-heading">Наши контакты</h2>
+            <address class="contacts-address">
+                <p class="contacts-tel">
+                    420500, г. Иннополис
+                    ул.Университетская, д.1
+                </p>
+                <p class="contacts-tel">Тел: +7 (843) 203-92-53 <br>
+                    <a class="contacts-email" href="mailto:helpme@innopolis.ru">helpme@innopolis.ru</a>
+                </p>
+               
+            </address>
+        </main>
+        <footer class="footer">
+            <p class="copywrite">2022 &copy; <a class="inoop-link" href="https://innopolis.com/">Иннополис</a></p>
+        </footer>
+    </body>
+</html>
